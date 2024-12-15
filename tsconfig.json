@@ -20,7 +20,8 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@static/*": ["./public/static/*"],
+      "@public/*": ["./src/public/*"],
+      "@pages/*": ["./src/app/(pages)/*"],
       "@generated/*": ["./src/__generated__/*"],
       "@*": ["./src/app/*"]
     }
